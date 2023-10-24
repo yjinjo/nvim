@@ -7,4 +7,7 @@ require("yjinjo.plugins.nvim-tree")
 require("yjinjo.plugins.lualine")
 require("yjinjo.plugins.telescope")
 require("yjinjo.plugins.nvim-cmp")
+require("yjinjo.plugins.lsp.mason")
+require("yjinjo.plugins.lsp.lspsaga")
+require("yjinjo.plugins.lsp.lspconfig")
 
