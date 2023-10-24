@@ -6,3 +6,5 @@ require("yjinjo.plugins.comment")
 require("yjinjo.plugins.nvim-tree")
 require("yjinjo.plugins.lualine")
 require("yjinjo.plugins.telescope")
+require("yjinjo.plugins.nvim-cmp")
+
