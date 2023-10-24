@@ -48,6 +48,9 @@ return packer.startup(function(use)
   -- file explorer
 	use("nvim-tree/nvim-tree.lua")
 
+  -- vs-code like icons
+	use("kyazdani42/nvim-web-devicons")
+
   if packer_bootstrap then
     require("packer").sync()
   end
