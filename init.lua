@@ -1,4 +1,4 @@
-require("yjinjo.plugins-setup")  -- Should be at the top
+require("yjinjo.plugins-setup") -- Should be at the top
 require("yjinjo.core.options")
 require("yjinjo.core.keymaps")
 require("yjinjo.core.colorscheme")
@@ -11,3 +11,5 @@ require("yjinjo.plugins.lsp.mason")
 require("yjinjo.plugins.lsp.lspsaga")
 require("yjinjo.plugins.lsp.lspconfig")
 require("yjinjo.plugins.lsp.null-ls")
+require("yjinjo.plugins.autopairs")
+require("yjinjo.plugins.treesitter")
