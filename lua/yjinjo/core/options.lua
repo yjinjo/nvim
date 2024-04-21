@@ -2,6 +2,10 @@ vim.cmd("let g:netrw_liststyle = 3")
 
 local opt = vim.opt -- for conciseness
 
+vim.scriptencoding = "utf-8"
+opt.encoding = "utf-8"
+opt.fileencoding = "utf-8"
+
 -- line numbers
 opt.relativenumber = true -- show relative line numbers
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
@@ -11,6 +15,8 @@ opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
 opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
+opt.smartindent = true
+opt.smarttab = true
 
 -- line wrapping
 opt.wrap = false -- disable line wrapping
@@ -42,3 +48,11 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+opt.hlsearch = true
+opt.backup = false
+opt.showcmd = true
+opt.cmdheight = 0
+opt.laststatus = 0
+opt.scrolloff = 10
+opt.inccommand = "split"
