@@ -15,10 +15,6 @@ return {
     
     -- Default options:
     require("gruvbox").setup({
-      overrides = {
-        ["@lsp.type.method"] = { bg = "#ff9900" },
-        ["@comment.lua"] = { bg = "#000000" },
-      },
       background = "dark",
       terminal_colors = true, -- add neovim terminal colors
       undercurl = true,
